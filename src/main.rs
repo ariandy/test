@@ -9,3 +9,10 @@ fn prng(seed: &mut i32, mult: i32, inc: i32, m: i32) {
         println!("{:?}", seed)
     }
 }
+
+fn lcg(seed: &mut i32, a: i32, m: i32) {
+    for _x in 0..10 {
+        *seed = (a * *seed) % m;
+        println!("{:?}", seed)
+    }
+}
