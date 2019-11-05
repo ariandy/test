@@ -29,5 +29,5 @@ fn park_miller(seed: &mut i32) {
 
 fn dec20_fortran(seed: &mut i32) {
     lehmer(seed, 630360016, i32::max_value(), 1)
-    //according to SIMSCRIPt II.5, DEC-20 FORTRAN
+    //according to SIMSCRIPT II.5, DEC-20 FORTRAN
 }
